@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Ubora/Solutions/VSAT-Solution</title>
+<meta name="description" content="" />
+<link rel="shortcut icon" href="../images/logo.png">
+<!-- css -->
+<link href="../css/bootstrap.min.css" rel="stylesheet" /> 
+<link href="../css/style.css" rel="stylesheet" /> 
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+	<header>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="logo" id="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.html">Home</a></li> 
+						<li class="dropdownbtn">
+							<a href="../about.html" class="dropbtn">About Us</a>
+			                <ul class="dropdown-content"> 
+			                    <li><a href="../about.html#vissiondiv">Our Offering</a></li>
+			                    <li><a href="../about.html#ourvaluesdiv">Implementation</a></li>
+			                    <li><a href="../about.html#missiondiv">Knowledge Transfer Mentoring</a></li> 
+			                    <li><a href="../about.html#ourmodaldiv">24/7 Network Operating Centre</a></li>
+			                </ul>
+		        		</li>    
+                        <li><a href="../portfolio.html">Portfolio</a></li> 
+                        <li class="active"><a href="../solution.html">Solutions</a></li>
+                        <li><a href="../subscribtion.html">Subscription</a></li>
+                        <li><a href="../partner.html">Partner</a></li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<div class="solution-page">
+		<section id="content">
+			<div class="container" style="width: 100%;" >
+				<div class="solution-content"> 
+					<a href="../solution.html" id="backbtn" style="float: right;"><i class="fa fa-arrow-circle-left"></i>Back</a>
+					<div class="row">
+						<div class="col-md-12"> 
+							<div class="row"> 
+								<div class="col-md-12" id="solutioncontent">
+									<h3>VSAT-VPN Setup Scenario</h3>
+									<img src="images/VSAT-VPN.jpg" alt="vsat" class="img-responsive">
+									<p>Satellite technology is independent from terrestrial infrastructure - unlike fibre, ADSL or mobile wireless technologies. Satellite broadband is available everywhere and makes even more sense in remote areas that other technologies cannot reach.</p><p>For the above scenario, on the customer side, LAN is configured according to customers specifications i.e. IP Subnets etc. The DHCP server is configured in the Hughes Modem and assigning the IPs to all the LAN devices. This option can be changed to customers specifications whereby the DHCP Server can be configured on the Customers router and NAT configured to the Hughes modem. The service is very flexible such that the client can choose their own LAN IPs/Subnets.Once the traffic gets to the Modem, its relayed to the Eutelsat space satellite; Yahsat-1B, then transmitted back to the hub earth stations located in London UK, and Torino Italy.</p>
+									<p>From the stations the traffic is transmitted in  either or both two ways; i.e. via layer 2 link (Fibre) or a layer 3 IPSec tunnel to the customers remote network or his/her ISP. The ISP connects to the MPLS; whereby a point to point configuration can be done between the remote site router and the MPLS.</p>
+									<p>In the above scenario, though VPN traffic is transmitted to and from branch site to HQ, Internet traffic is generated from the Hub.  A split tunnel is configured at hub whereby VPN traffic is from branch is put in a IPSec tunnel to Nairobi, whereas internet traffic is routed to the remote site. This makes internet browsing faster, since so many hops are eliminated in this split tunnel configuration.</p>
+									<p>The customer at remote site is able to access services from HQ office like Servers, Applications etc just as though they are connected directly to the same LAN.   </p> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 						
+			</div>
+		</section>
+		<section>
+			<div class="container" style="width: 100% !important;">
+				<div class="row" style="margin-bottom: 0px;">
+					<div class="footerlink">
+						<div class="col-md-12 col-sm-12 col-xs-12" style="padding-left: 0px;padding-right: 0px;">
+							<ul class="footerlinks" >
+								<li></li>
+								<li><p>CONNECTIVITY</p>
+								<li><p>CLOUD</p></li>
+								<li><p>SECURITY</p></li>
+								<li><p>DIGITAL SERVICES</p></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</section> 
+		<footer>
+			<div class="container" style="width: 100% !important;">
+				<div class="row" style="margin-bottom: 0px;">
+					<div class="col-md-4 col-sm-12 col-xs-12 copyright"> 
+						<p>
+							<span>&copy; Ubora 2017 All right reserved.</span>
+						</p>  	
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12 compny-details text-center">
+						<address style="margin-bottom:5px;">
+						Ubora Systems and Solutions Limited, Mitsumi Business Park 10th Floor, P.O Box 58666 - 00100, Muthithi Road,Nairobi.<br> Tel: +254 777 34 31 00, Email : <a href="mailto:info@ubora.co.ke" target="_top">info@ubora.co.ke</a>, Website : <a href="http://ubora.co.ke/">www.ubora.co.ke</a></address>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== $("map").imageMapResize(); -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/nav.js"></script> 
+<script src="../js/solution.js"></script> 
+</body>
+</html>
